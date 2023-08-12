@@ -13,7 +13,7 @@ function MyHeader() {
   };
 
   return (
-    <header className="flex   bg-mynavyblue text-center border-corner-md drop-shadow-2xl max-w-[1240] mx-auto header-container">
+    <header className="justify-between flex  md:flex   bg-mynavyblue text-center border-corner-md drop-shadow-2xl max-w-[1240] mx-auto header-container">
       <div className=" flex">
         <img src={logo} alt="Logo" className="logo md:h-full " />
       </div>
@@ -46,7 +46,7 @@ function MyHeader() {
       </div>
 
       <div className="flex-none flex  ">
-        <div className={!Nav?"block  ":"hidden md:block"}>
+        <div className={!Nav?"  hidden md:block ":"hidden md:block"}>
         <button className=" text-white text-xl hover:bg-red-700 p-3 m-3 rounded-2xl drop-shadow-2xl">
           Sign Out
           <span className="icon text-xl">🚪</span>
