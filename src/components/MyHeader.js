@@ -66,8 +66,8 @@ function MyHeader() {
       <div
         className={
           !Nav
-            ? "text-center fixed left-0 top-0 h-screen border-r-2 rounded-lg  border-r-gray-100  bg-gray-300 p-3   "
-            : "fixed hidden left-[-100] ease-in-out duration-700 "
+            ? "text-center text-white fixed left-0 top-0 h-auto  rounded-md  border-r-red-200  bg-gray-900 p-2 ease-in-out duration-300 "
+            : "fixed hidden left-[-100]  "
         }
       >
         <ul className=" uppercase m-5 text-center ">
